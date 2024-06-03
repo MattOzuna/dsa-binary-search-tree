@@ -4,7 +4,7 @@
 
 Welcome to the Binary Search Tree (BST) Exercises project! This repository contains a series of exercises. The exercises cover various aspects of BSTs, including insertion, searching, and traversals.  
 
-```bash
+```
     npm install
     npm test
 ```
