@@ -102,7 +102,7 @@ class BinarySearchTree {
     return _findRecursively(currNode);
   }
 
-  /** dfsPreOrder(): Traverse the array using pre-order DFS.
+  /** dfsPreOrder(): Traverse the tree using pre-order DFS.
    * Return an array of visited nodes. */
 
   dfsPreOrder() {
@@ -117,7 +117,7 @@ class BinarySearchTree {
     return visited;
   }
 
-  /** dfsInOrder(): Traverse the array using in-order DFS.
+  /** dfsInOrder(): Traverse the tree using in-order DFS.
    * Return an array of visited nodes. */
 
   dfsInOrder() {
@@ -132,7 +132,7 @@ class BinarySearchTree {
     return visited;
   }
 
-  /** dfsPostOrder(): Traverse the array using post-order DFS.
+  /** dfsPostOrder(): Traverse the tree using post-order DFS.
    * Return an array of visited nodes. */
 
   dfsPostOrder() {
@@ -147,7 +147,7 @@ class BinarySearchTree {
     return visited;
   }
 
-  /** bfs(): Traverse the array using BFS.
+  /** bfs(): Traverse the tree using BFS.
    * Return an array of visited nodes. */
 
   bfs() {
@@ -178,6 +178,6 @@ class BinarySearchTree {
    * Otherwise return undefined. */
 
   findSecondHighest() {}
-  
+
 }
 module.exports = BinarySearchTree;
